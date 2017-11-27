@@ -13,8 +13,8 @@ function frameIt(){
 function pressIt(){
   $("form").on("keydown", function(){
     if($('input').val()===71){
-      alert("You are the G in OG");
-      return;
+      alert("You are the G in OG")
+      return
     }
   })
 }
